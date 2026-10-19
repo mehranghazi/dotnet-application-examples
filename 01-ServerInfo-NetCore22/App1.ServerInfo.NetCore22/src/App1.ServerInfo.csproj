@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+    <AssemblyName>App1.ServerInfo</AssemblyName>
+    <RootNamespace>App1.ServerInfo</RootNamespace>
+    <LangVersion>7.3</LangVersion>
+    <!-- Runs inside IIS worker process (w3wp.exe), like the .NET 7 / 8 builds -->
+    <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>

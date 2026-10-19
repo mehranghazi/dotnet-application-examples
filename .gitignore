@@ -1,0 +1,5 @@
+# build output created when you build the source examples
+**/publish/WinKestrelApp.exe
+**/obj/
+.vs/
+*.user
